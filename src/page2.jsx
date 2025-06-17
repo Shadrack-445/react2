@@ -4,10 +4,10 @@ import { useNavigate } from "react-router-dom";
 
 
 function Page2(){
-    const [FormInfor,setFormInfo] = useState({email:"" ,mobile:""})
+    const [FormInfor,setFormInfor] = useState({email:"" ,mobile:""})
 const handlechange = () => {
-    FormInfor.email = () => {setFormInfo(e)=(e.target.value)}
-    FormInfor.mobile = () => {parseFloat(setFormInfo(e)=(e.target.value))} 
+    FormInfor.email = () => {setFormInfor(e)=(e.target.value)}
+    FormInfor.mobile = () => {parseFloat(setFormInfor(e)=(e.target.value))} 
 }
 
 const navigate = useNavigate()
