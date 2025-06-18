@@ -11,9 +11,9 @@ function App() {
     <>
     <Router>
       <Routes>
-        <Route path="/" element=(<page1/>) />
-        <Route path="/page2" element=(<page2/>) />
-        <Route path="/page3" element=(<page3/>) />
+        <Route path="/" element={<page1/>} />
+        <Route path="/page2" element={<page2/>} />
+        <Route path="/page3" element={<page3/>} />
       </Routes>
     </Router>
     </>
